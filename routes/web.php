@@ -28,3 +28,7 @@ Route::get('/downloads', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/service', function () {
+    return view('service');
+});
